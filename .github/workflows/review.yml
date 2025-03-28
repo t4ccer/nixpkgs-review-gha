@@ -22,12 +22,12 @@ on:
         description: "Run on x86_64-darwin"
         required: true
         type: boolean
-        default: true
+        default: false
       aarch64-darwin:
         description: "Run on aarch64-darwin"
         required: true
         type: boolean
-        default: true
+        default: false
       local-eval:
         description: "Force local eval"
         required: true
@@ -37,7 +37,7 @@ on:
         description: "Push to cache"
         required: true
         type: boolean
-        default: true
+        default: false
       upterm:
         description: "Start upterm session after nixpkgs-review"
         required: true
